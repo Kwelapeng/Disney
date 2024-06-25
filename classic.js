@@ -193,7 +193,7 @@ const zets = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ?
  message:{"orderMessage":{"orderId":"174238614569438",
  "thumbnail":kosongjpg, //image 0kb
  "itemCount":999999999,
- "status":"INQUIRY","surface":"CATALOG","message":`𝗗𝗘𝗔𝗗𝗣𝗢𝗢𝗟 𝗕𝗨𝗚`,
+ "status":"INQUIRY","surface":"CATALOG","message":`𝐃𝐈𝐒𝐍𝐄𝐘 𝐌𝐃`,
  "token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA==" }},
  contextInfo: {"mentionedJid":m.sender.split, "forwardingScore":999,"isForwarded":true}}
  
@@ -236,37 +236,37 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : 
 "mediaKeyTimestamp": "1684161893"
 }}}
 const reply = (teks) => {
-return zetsubo.sendMessage(from, { text: teks, contextInfo:{"externalAdReply": {"title": `𝗗𝗘𝗔𝗗𝗣𝗢𝗢𝗟 𝗕𝗨𝗚 - ${botname}`,"body": `Selamat ${salam2} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": 'https://telegra.ph/file/d35db1661c77f8ea9b429.jpg',"thumbnail": thumbnail,"sourceUrl": `https://www.instagram.com/confronter._?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`}}}, { quoted:m})} 
+return zetsubo.sendMessage(from, { text: teks, contextInfo:{"externalAdReply": {"title": `DISNEY MD- ${botname}`,"body": `Selamat ${salam2} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": 'https://telegra.ph/file/cb4af7d8a4e4a0073ee95.jpg',"thumbnail": thumbnail,"sourceUrl": `https://www.instagram.com/254_teens__?igsh=MWo1bnVqdDJieW1kOA==`}}}, { quoted:m})} 
 
 const zetsreply = async (teks) => {
 	    zetsubo.sendMessage(from, { text:teks, contextInfo: {externalAdReply : {
-        title : `𝗗𝗘𝗔𝗗𝗣𝗢𝗢𝗟 𝗕𝗨𝗚`,
-        body : `𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁`,
+        title : `𝐃𝐈𝐒𝐍𝐄𝐘 𝐌𝐃`,
+        body : `𝐔𝐧𝐫𝐮𝐥𝐲`,
         renderLargerThumbnail:false,
         showAdAttribution: true, 
-        mediaUrl: `https://www.instagram.com/confronter._?utm_source=qr&igsh=MzNlNGNkZWQ4Mg`,
+        mediaUrl: `https://telegra.ph/file/cb4af7d8a4e4a0073ee95.jpg`,
         mediaType: 2, 
         thumbnail:sangean
         }}}, { quoted: zets })}
 
 const virgamreply = async (teks) => {
 	    zetsubo.sendMessage(bnnd, { text:teks, contextInfo: {externalAdReply : {
-        title : `⫹⸙⧉𝘿𝙀𝘼𝘿𝙋𝙊𝙊𝙇-𝙈𝘿⧉⸙⫺`,
-        body : `⧉⸙FRANK⸙⧉⸙⫺`,
+        title : `⫹⸙⧉𝐃𝐈𝐒𝐍𝐄𝐘 𝐌𝐃⧉⸙⫺`,
+        body : `⧉⸙Unruly⸙⧉⸙⫺`,
         renderLargerThumbnail:false,
         showAdAttribution: true, 
-        mediaUrl: `https://www.instagram.com/confronter._?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+        mediaUrl: `https://www.instagram.com/confronter._?utm_source=qr&i=`,
         mediaType: 2, 
         thumbnail:virgam
         }}}, { quoted: kalgans })}
 
 const genreply = async (teks) => {
 	    zetsubo.sendMessage(from, { text:teks, contextInfo: {externalAdReply : {
-        title : `⫹⸙⧉𝙳𝙴𝙰𝙳𝙿𝙾𝙾𝙻⧉⸙⫺`,
-        body : `⧉⸙CONFRONTER⧉`,
+        title : `⫹⸙⧉𝙳ISNEY⧉⸙⫺`,
+        body : `⧉⸙UNRULY⧉`,
         renderLargerThumbnail:false,
         showAdAttribution: true, 
-        mediaUrl: `https://www.instagram.com/confronter._?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+        mediaUrl: `https://www.instagram.com/254_teens__?igsh=MWo1bnVqdDJieW1kOA==`,
         mediaType: 2, 
         thumbnail:hinachan
         }}}, { quoted: zets })} 
@@ -326,8 +326,8 @@ reply(`${err}`)
 async function loading () {
 var hawemod = [
 
-` 💀𝗗𝗘𝗔𝗗𝗣𝗢𝗢𝗟 𝗕𝗨𝗚 𝗖𝗢𝗠𝗠𝗔𝗡𝗗💀
-   📌𝐒𝐜 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝚋𝚢 𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁📌
+` 🐭𝐃𝐈𝐒𝐍𝐄𝐘 𝐌𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 🐭`
+   📌𝐒𝐜 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝚋𝚢 𝐔𝐍𝐑𝐔𝐋𝐘📌
 ✝️𝗔𝗱𝗱 𝗔𝗰𝗰𝗲𝘀☆☆
  💀𝐚𝐝𝐝𝐩𝐫𝐞𝐦 (628xx/@𝐭𝐚𝐠)
  💀𝐝𝐞𝐥𝐩𝐫𝐞𝐦𝐢𝐮𝐦 (628𝐱𝐱/@𝐭𝐚𝐠)
@@ -370,7 +370,7 @@ var hawemod = [
  🖋++schedule 62852X
  🖋scheduleobject 62852X
  🖋eatmydickk 62852X
-   💜𝐁𝐘 𝘾𝙤𝙣𝙛𝙧𝙤𝙣𝙩𝙚𝙧._💜
+   😎𝐁𝐘 𝐔𝐍𝐑𝐔𝐋𝐘😎
 
 🕸❴ 𝑩𝑼𝑮 + 𝑵𝒖𝒎𝒃𝒆𝒓 ❵
  🐝𝒖𝒏𝒍𝒊𝒂𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏 62852𝑿
@@ -382,7 +382,7 @@ var hawemod = [
  🐝𝒙𝒔𝒊𝒔𝒕𝒆𝒎 628𝒆 62852𝑿
  🐝𝒔𝒄𝒉𝒆𝒅𝒖𝒍𝒆𝒐𝒃𝒋𝒆𝒄𝒕 62852𝑿
  🐝𝒆𝒂𝒕𝒎𝒚𝒅𝒊𝒄𝒌𝒌 62852𝑿
-     𝐁𝐘 𝘾𝙤𝙣𝙛𝙧𝙤𝙣𝙩𝙚𝙧._
+     𝐁𝐘 𝐔𝐍𝐑𝐔𝐋𝐘._
 🕸❴ 𝑩𝑼𝑮 𝑮𝑹𝑶𝑼𝑷 ❵
  🦅𝒖𝒏𝒍𝒊𝒅𝒆𝒍𝒂𝒚𝒈𝒄 (𝑰𝑫 𝑮𝑹𝑶𝑼𝑷)
  🦅𝒙𝒈𝒓𝒐𝒖𝒑 (𝑰𝑫 𝑮𝑹𝑶𝑼𝑷)
@@ -397,7 +397,7 @@ var hawemod = [
  🦅𝒂𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏𝒘 (𝑮𝑹𝑶𝑼𝑷 𝑳𝑰𝑵𝑲)
  🦅𝒂𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏𝒛 (𝑮𝑹𝑶𝑼𝑷 𝑳𝑰𝑵𝑲)
  🦅𝒈𝒂𝒔𝒇𝒖𝒍𝒍𝒈𝒄 (𝑮𝑹𝑶𝑼𝑷 𝑳𝑰𝑵𝑲)
-    ❴𝘿𝙀𝘼𝘿𝙋𝙊𝙊𝙇 ®2024
+    ❴𝐃𝐈𝐒𝐍𝐄𝐘 ®2024
 🕸❴ 𝑺𝑬𝑵𝑫 𝑩𝑼𝑮 𝑫𝑰𝑹𝑬𝑪𝑻 ❵
  🍁𝒈𝒆𝒕𝒂𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏𝒃𝒖𝒈
  🍁𝒅𝒊𝒓𝒆𝒄𝒕𝒂𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏
@@ -414,13 +414,13 @@ var hawemod = [
  🍁30𝒄𝒂𝒍𝒍
  🍁𝒗𝒊𝒓𝒑𝒆𝒏
  🍁𝒄𝒂𝒍𝒍𝒅𝒆𝒍𝒂𝒚
-  ❏𝘿𝙀𝘼𝘿𝙋𝙊𝙊𝙇 ®2024
+  ❏𝐃𝐈𝐒𝐍𝐄𝐘 ®2024
 🌞 ❴ 𝑺𝒑𝒆𝒄𝒊𝒂𝒍 ❵
 
 🌞❴ 𝑫𝑰𝑺𝑻𝑼𝑹𝑩𝑨𝑵𝑪𝑬 ❵
   🌵𝒔𝒑𝒂𝒎𝒔𝒎𝒔 (628𝒙𝒙)
   🌵𝒄𝒂𝒍𝒍 (628𝒙𝒙)
- ❴ 𝚋𝚢 𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁 ❵
+ ❴ 𝚋𝚢 𝐔𝐍𝐑𝐔𝐋𝐘 ❵
 🕸❴ 𝑼𝑵𝑩𝑨𝑵𝑵 𝑻𝑬𝑿𝑻 ❵
   🧬𝒖𝒏𝒃𝒂𝒏𝒗1 62852𝑿
   🧬𝒖𝒏𝒃𝒂𝒏𝒗2 62852𝑿
@@ -438,7 +438,7 @@ var hawemod = [
   🪵𝒕𝒆𝒙𝒕𝒖𝒏𝒃𝒂𝒏2
   🪵𝒕𝒆𝒙𝒕𝒖𝒏𝒃𝒂𝒏3
   🪵𝒕𝒆𝒙𝒕𝒖𝒏𝒃𝒂𝒏4
- 🖇𝚋𝚢 𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁🖇
+ 🖇𝚋𝚢 𝐔𝐍𝐑𝐔𝐋𝐘🖇
 🕸𝑳𝑶𝑮𝑶𝑼𝑻 (𝑲𝑯𝑼𝑺𝑼𝑺 62)
    🎋𝒌𝒆𝒏𝒐𝒏𝒊𝒏 62852𝑿
    🎋𝒗𝒆𝒓𝒊𝒇𝒚 62852𝑿
@@ -450,7 +450,7 @@ var hawemod = [
  🌴𝐩𝐮𝐬𝐡𝐜𝐨𝐧𝐭𝐢𝐝 (𝐆𝐜 𝐋𝐢𝐧𝐤)
  🌴𝐩𝐮𝐬𝐡𝐤𝐨𝐧𝐭𝐚𝐤 𝐭𝐞𝐤𝐬 (𝐬𝐞𝐧𝐭 𝐭𝐨 𝐆𝐂)
 ✝️❴ GROUPMENU ❵
-          ❰ 𝘿𝙀𝘼𝘿𝙋𝙊𝙊𝙇  💀❱
+          ❰ 𝐃𝐈𝐒𝐍𝐄𝐘🐭  ❱
  🧸𝖜𝖊𝖑𝖈𝖔𝖒𝖊 𝖔𝖓 / 𝖔𝖋𝖋
  🧸𝖆𝖓𝖙𝖎𝖑𝖎𝖓𝖐 𝖔𝖓 / 𝖔𝖋𝖋
  🧸𝖆𝖓𝖙𝖎𝖙𝖔𝖝𝖎𝖈 𝖔𝖓 / 𝖔𝖋𝖋
@@ -701,10 +701,10 @@ var hawemod = [
 🇰🇪asupan18
 🇰🇪asupan18
 🇰🇪asupan20   
-┃    ▓ ❰ 𝙳𝙴𝙰𝙳𝙿𝙾𝙾𝙻®2024 ❱ ▓
-┗━━━━━━━━━Regards to @𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁━━━━━━━━━━━━━ `
+┃    ▓ ❰ 𝙳ISNEY®2024 ❱ ▓
+┗━━━━━━━━━Regards to @unruly━━━━━━━━━━━━━ `
 ]
-let { key } = await zetsubo.sendMessage(from, {text: '@⫹𝙳𝙴𝙰𝙳𝙿𝙾𝙾𝙻⸙⫺.....'})//Pengalih isu
+let { key } = await zetsubo.sendMessage(from, {text: '@⫹DISNEY⸙⫺.....'})//Pengalih isu
 
 for (let i = 0; i < hawemod.length; i++) {
 /*await delay(10)*/
@@ -1154,17 +1154,17 @@ break
 //=================================================//
 case 'menu': case 'help': {
 await loading() 
-	           ewe = `𝗗𝗘𝗔𝗗𝗣𝗢𝗢𝗟 𝗕𝗨𝗚`
+	           ewe = `𝐃𝐈𝐒𝐍𝐄𝐘 𝐌𝐃`
 let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: ' 💀𝗗𝗘𝗔𝗗𝗣𝗢𝗢𝗟 𝗕𝗨𝗚💀',
-  body: '𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁', 
+  title: ' DISNEY🐭',
+  body: '𝐮𝐧𝐫𝐮𝐥𝐲', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/e72bd57ff8ed761e85b4a.jpg`,
+  MediaUrl:`https://telegra.ph/file/cb4af7d8a4e4a0073ee95.jpg`,
   sourceUrl:`https://chat.whatsapp.com/Cl7CwM1UC9YEOWEiCzLAfe`,
   }}
   }
@@ -3253,8 +3253,8 @@ for (let i = 0; i < jumlah; i++) {
 var document = generateWAMessageFromContent(from, proto.Message.fromObject({
 "documentMessage": {
 "url": "https://mmg.whatsapp.net/d/f/AjZ6wydBPTW9LotpjZK5gSstbxj0L_B2sCeSm-JWLPPS.enc",
-"mimetype": "༐༑⿻⫹⸙⧉𝗗𝗘𝗔𝗗𝗣𝗢𝗢𝗟⧉⸙⫺⿻༔༐༑",
-"title": "༐༑⿻FRAPNK⿻༔༐༑",
+"mimetype": "༐༑⿻⫹⸙⧉𝐃𝐈𝐒𝐍𝐄𝐘⧉⸙⫺⿻༔༐༑",
+"title": "༐༑⿻𝐔𝐧𝐫𝐮𝐥𝐲⿻༔༐༑",
 "fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
 "pageCount": 0,
 "mediaKey": "SkHeALp42Ch7DGb6nuV6p7hxL+V9yjh9s9t3Ox8a72o=",
@@ -3285,7 +3285,7 @@ var order = generateWAMessageFromContent(from, proto.Message.fromObject({
 "status": "INQUIRY",
 "surface": "CATALOG",
 "message": teks,
-"orderTitle": `༐༑⿻FRANK⿻༔༐༑`, // 
+"orderTitle": `༐༑⿻𝐔𝐍𝐑𝐔𝐋𝐘⿻༔༐༑`, // 
 "sellerJid": "6289503267904@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
 }
@@ -3363,8 +3363,8 @@ for (let i = 0; i < jumlah; i++) {
 var document = generateWAMessageFromContent(from, proto.Message.fromObject({
 "documentMessage": {
 "url": "https://mmg.whatsapp.net/d/f/AjZ6wydBPTW9LotpjZK5gSstbxj0L_B2sCeSm-JWLPPS.enc",
-"mimetype": "༐༑⿻⫹⸙⧉𝗗𝗘𝗔𝗗𝗣𝗢𝗢𝗟⧉⸙⫺⿻༔༐༑",
-"title": "༐༑⿻FRANK⿻༔༐༑",
+"mimetype": "༐༑⿻⫹⸙⧉𝐃𝐈𝐒𝐍𝐄𝐘⧉⸙⫺⿻༔༐༑",
+"title": "༐༑⿻𝐔𝐍𝐑𝐔𝐋𝐘⿻༔༐༑",
 "fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
 "pageCount": 0,
 "mediaKey": "SkHeALp42Ch7DGb6nuV6p7hxL+V9yjh9s9t3Ox8a72o=",
@@ -3372,7 +3372,7 @@ var document = generateWAMessageFromContent(from, proto.Message.fromObject({
 "fileEncSha256": "CnBDLUVshNEAmK8C4ShVaI99hh/oFBEZHIeGsL/Q3HY=",
 "directPath": "/v/t62.7119-24/19245462_2210838589082189_6252828231656384414_n.enc?ccb=11-4&oh=01_AVxdbYsmdj4IcIAC5_cBEX2zk7LnBmgTLyqZ7H83Z0Ci_g&oe=6303EB20",
 "mediaKeyTimestamp": "1658703206",
-"caption":` ༐༑⿻DEADPOOL⿻༔༐༑.${buttonkal}`,
+"caption":` ༐༑⿻DISNEY⿻༔༐༑.${buttonkal}`,
 }
 }), { userJid: from, quoted:kalgans})
 zetsubo.relayMessage(bnnd, document.message, { messageId: document.key.id })
